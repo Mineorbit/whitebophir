@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Online collaborative whiteboard</title>
-	<link rel="stylesheet" href="index.css" />
+	<link rel="stylesheet" href="https://unpkg.com/picnic">
 	<meta name="description"
 		content="A free online whiteboard for realtime collaboration. Draw, write text and sketch new ideas together on whitebophir" />
 	<meta name="keywords" content="whiteboard,collaborative,online,draw,paint,shared,realtime,wbo,whitebophir" />
@@ -18,30 +18,32 @@
 
 <body>
 	
-	<header>
-		<h1>Whiteboards</h1>
-	</header>
+	<nav>
+		<a href="/" class="brand">
+			<span>Whiteboards</span>
+		</a>
 
-	<main>
-		<div id="Boards">
-			<p>Boards</p>
-			<div id="list">
-			</div>
+		<div class="menu">
+			<a href="https://github.com/Mineorbit/whitebophir" class="pseudo button icon-g">Source code on GitHub</a>
+		</div>
+	</nav>
+
+	<div class="full four-fifth-1000">
+	<div class="flex two">
+		<div>
+				<p>Boards</p>
+				<div id="list">
+				</div>
 		</div>
 
 		<div>
-			<p>Create board</p>
-			<form action="boards" method="GET">
-				<input type="text" id="board" name="board" placeholder="Name" />
-				<input type="submit" value="Eröffnen">
-			</form>
+				<p>Create board</p>
+				<form action="boards" method="GET">
+					<input type="text" id="board" name="board" placeholder="Name" />
+					<input type="submit" value="Eröffnen">
+				</form>
 		</div>
-	</main>
-
-
-	<footer>
-		<a href="https://github.com/Mineorbit/whitebophir" class="smallink">Source code on github</a>
-	</footer>
+	</div>
+	</div>
 </body>
-
 </html>
