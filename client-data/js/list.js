@@ -3,7 +3,7 @@ var xmlHttp = new XMLHttpRequest();
     		xmlHttp.send( null );
    	 	var res = xmlHttp.responseText.split("\n");
 		
-		document.getElementById("Boards").innerHTML = "Test";
+		document.getElementById("list").innerHTML = "Test";
 		for(i = 1;i<res.length;i++)
 		{
 		document.getElementById("list").innerHTML += "\n<a href='/boards/"+res[i]+"'>"+res[i]+"</a>";
