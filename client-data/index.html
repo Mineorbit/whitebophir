@@ -13,9 +13,6 @@
 	<link rel="apple-touch-icon" href="favicon.svg">
 	<link rel="mask-icon" href="favicon.svg" color="black">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
 	<script>
 	   	var xmlHttp = new XMLHttpRequest();
     		xmlHttp.open( "GET", "/list", false ); // false for synchronous request
@@ -27,6 +24,10 @@
 		document.getElementById("list").innerHTML += "\n<a href='/boards/"+res[i]+"'>"+res[i]+"</a>";
 		}
 	</script>
+</head>
+
+<body>
+	
 	<header>
 		<h1>Whiteboards</h1> - <h2>GlutenTag</h2>
 	</header>
