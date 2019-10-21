@@ -152,7 +152,7 @@ function handleRequest(request, response) {
   		if(file.endsWith(".json"))
 		{
 			var stre = file.substring(0, file.length - 5);
-			responsed += "\n"+stre.substring(6, str.length);
+			responsed += "\n"+stre.substring(6, stre.length);
 		}
 		});
 		
