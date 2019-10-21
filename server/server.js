@@ -151,7 +151,8 @@ function handleRequest(request, response) {
 		fs.readdirSync("server-data/").forEach(file => {
   		if(file.endsWith(".json"))
 		{
-			responsed += 	"\n"+file.substring(0, file.length - 5);
+			var stre = file.substring(0, file.length - 5);
+			responsed += "\n"+stre.substring(6, str.length);
 		}
 		});
 		
