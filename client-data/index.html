@@ -28,22 +28,34 @@
 		</div>
 	</nav>
 
-	<div class="full four-fifth-1000">
+	<main style="width:100%; max-width:960px; margin-right:auto; margin-left:auto; padding-top:80px">
 	<div class="flex two">
 		<div>
-				<p>Boards</p>
-				<div id="list">
-				</div>
+			<article class="card">
+				<header>
+					<h3>Boards</h3>
+				</header>
+				<footer style="padding-left:30px">
+					<div id="list">
+					</div>
+				</footer>
+			</article>
 		</div>
 
 		<div>
-				<p>Create board</p>
-				<form action="boards" method="GET">
-					<input type="text" id="board" name="board" placeholder="Name" />
-					<input type="submit" value="Eröffnen">
-				</form>
+			<article class="card">
+				<header>
+					<h3>Create board</h3>
+				</header>
+				<footer>
+					<form action="boards" method="GET">
+						<input type="text" id="board" name="board" placeholder="Name" />
+						<input type="submit" value="Create">
+					</form>
+				</footer>
+			</article>
 		</div>
 	</div>
-	</div>
+	</main>
 </body>
 </html>
