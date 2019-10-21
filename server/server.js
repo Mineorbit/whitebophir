@@ -145,6 +145,20 @@ function handleRequest(request, response) {
 			response.statusCode = 404;
 			response.end("ERROR: Unable to serve history file\n");
 		});
+	} else if (parts[0] === "list") {
+		
+		var responsed = "";
+		fs.readdirSync("/server-data").forEach(file => {
+  		if(file.endsWith(".json"))
+		{
+			responsed += 	"\n"+file.substring(0, file.length - 5);
+		}
+		});
+		
+		response.writeHead(200, {'Content-Type': 'text/plain'});
+  		response.write(responsed);
+  		response.end();
+		
 	} else if (parts[0] === "preview") {
 		var boardName = encodeURIComponent(parts[1]),
 			history_file = path.join(__dirname, "..", "server-data", "board-" + boardName + ".json");
