@@ -10,12 +10,11 @@ html, body, svg {
 
 #loadingMessage {
 	font-size: 1.5em;
-	background: #3339 linear-gradient( #C4DFFF, #8FA2BC);
+	background: #C4DFFF;
 	padding: 20px;
 	width: 40%;
 	line-height: 50px;
 	text-align: center;
-	border-radius: 10px;
 	position:fixed;
 	top: 40%;
 	left: 30%;
@@ -83,11 +82,10 @@ html, body, svg {
 	text-decoration:none;
 	transition-duration:0.5s;
 	cursor:pointer;
-	background: linear-gradient( #C4DFFF, #8FA2BC);
+	background: #C4DFFF;
 	margin-top: 10px;
 	height: 60px;
 	line-height: 60px;
-	border-radius: 30px;
 	max-width: 60px;
 	transition-duration: .5s;
 	overflow: hidden;
@@ -115,7 +113,7 @@ html, body, svg {
 
 #menu .tool.curTool {
   box-shadow: 0 0 5px #0074D9;
-  background: linear-gradient(#96E1FF, #36A2FF);
+  background: #96E1FF;
 }
 
 #menu .tool-icon {
