@@ -148,7 +148,7 @@ function handleRequest(request, response) {
 	} else if (parts[0] === "list") {
 		
 		var responsed = "";
-		fs.readdirSync("/server-data").forEach(file => {
+		fs.readdirSync("server-data/").forEach(file => {
   		if(file.endsWith(".json"))
 		{
 			responsed += 	"\n"+file.substring(0, file.length - 5);
