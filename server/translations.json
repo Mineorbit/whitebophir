@@ -16,6 +16,17 @@
         "Click to zoom in\nPress shift and click to zoom out": "Cliquez pour zoomer\nCliquez en maintenant la touche majuscule enfoncée pour dézoomer",
         "A free and opensource online collaborative drawing tool. Sketch new ideas together on WBO !": "Logiciel libre pour collaborer en ligne sur un tableau blanc. Venez dessiner vos idées ensemble sur WBO !"
     },
+    "de": {
+        "Collaborative whiteboard": "Kollaboratives whiteboard",
+        "Loading": "Laden",
+        "Menu": "Menü",
+        "Tools": "Werkzeuge",
+        "Size": "Größe",
+        "Color": "Farbe",
+    },
+    "pl": {
+        "Collaborative whiteboard": "Tablica wspólpracy"
+    },
     "ru": {
         "Collaborative whiteboard": "Онлайн доска для совместного рисования",
         "Loading": "Загрузка",
