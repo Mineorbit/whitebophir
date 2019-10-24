@@ -1,28 +1,29 @@
 {
-   "keywords": [
-      "collaborative",
-      "whiteboard"
-   ],
-   "version": "1.0.24",
-   "license": "AGPL-3.0-or-later",
-   "dependencies": {
-      "handlebars": "^4.4.3",
-      "node-static": "0.7.x",
-      "socket.io": "^2.3.0"
-   },
-   "scripts": {
-      "start": "node ./server/server.js",
-      "deploy": "openode sync && openode restart"
-   },
-   "name": "whitebophir",
-   "description": "Online collaborative whiteboard",
-   "main": "./server/server.js",
-   "subdomain": "wbo",
-   "repository": {
-      "type": "git",
-      "url": "http://github.com/lovasoa/whitebophir.git"
-   },
-   "devDependencies": {
-      "openode": "^2.0.14"
-   }
+  "keywords": [
+    "collaborative",
+    "whiteboard"
+  ],
+  "version": "1.0.24",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "handlebars": "^4.4.3",
+    "node-static": "0.7.x",
+    "remixicon": "^2.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node ./server/server.js",
+    "deploy": "openode sync && openode restart"
+  },
+  "name": "whitebophir",
+  "description": "Online collaborative whiteboard",
+  "main": "./server/server.js",
+  "subdomain": "wbo",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lovasoa/whitebophir.git"
+  },
+  "devDependencies": {
+    "openode": "^2.0.14"
+  }
 }
