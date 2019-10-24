@@ -74,6 +74,7 @@ html, body, svg {
 	list-style-type:none;
 	/* float: left; */
 	padding:0;
+	float:left;
 }
 
 #menu .tool {
@@ -81,6 +82,7 @@ html, body, svg {
 	white-space: nowrap;
 	list-style-position:inside;
 	border:0;
+	float: left;
 	text-decoration:none;
 	transition-duration:0.5s;
 	cursor:pointer;
