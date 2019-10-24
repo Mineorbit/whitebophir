@@ -34,6 +34,7 @@ html, body, svg {
 
 #menu {
 	font-size: 16px;
+	float: left;
 	border-radius:0;
 	overflow:hidden;
 	position:fixed;
@@ -43,9 +44,9 @@ html, body, svg {
 	height:100%;
 	transition-duration:1s;
 	cursor:default;
-	padding: 10px;
+	/* padding: 10px; */
 	pointer-events: none;
-	width: 300px;
+	width: 100%;
 }
 
 #menu.closed {
@@ -71,6 +72,7 @@ html, body, svg {
 
 #menu .tools {
 	list-style-type:none;
+	/* float: left; */
 	padding:0;
 }
 
@@ -91,6 +93,7 @@ html, body, svg {
 	overflow: hidden;
 	width: max-content;
 	box-shadow: 0 0 3px #555;
+	float: left;
 }
 
 
@@ -175,3 +178,4 @@ input {
 	margin: 0;
 	background: transparent;
 }
+
